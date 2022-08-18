@@ -1,0 +1,6 @@
+{
+    "name": "alexander/project-x",
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}

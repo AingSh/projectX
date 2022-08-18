@@ -1,0 +1,285 @@
+.section-gap {
+    padding: 30px 0px;
+}
+.title-row {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.title-row h1{
+    margin-bottom: 40px;
+    
+}
+
+/* NAVIGATION */
+
+
+#navigation {
+background: rgba(20, 2, 0 , 0.8);
+padding: 5px 0;
+position: fixed;
+width: 100%;
+z-index: 9;
+}
+
+
+#navigation .row>* {
+    width: unset;
+}
+
+#navigation .nav .nav-link {
+    color: #fff;
+}
+
+#navigation .nav .nav-link:hover {
+    color: #b0a231;
+}
+
+
+
+/* HOME */
+#home {
+    background: url(../images/bg/header-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+ }
+ 
+ #home .banner-content {
+     height: 862px;
+     width: 100%;
+     align-items: center;
+     padding:0 10%;
+     color: #fff;
+     display: flex;
+ }
+
+#home .btn {
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 10px 10px;
+    margin-top: 40px;
+}
+
+#home .btn:hover {
+background-color: #70ef77;
+color: #6f87b4;
+} 
+
+#home .row .carousel-indicators{
+    margin-left: unset;
+    margin-bottom: 5rem;
+
+}
+
+/* ABOUT */
+
+#about {
+    background: #fff;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+#about .video {
+    position: relative;
+    padding: 0;
+ 
+}
+
+
+
+#about .video-img{
+  width: 100%;
+}
+
+#about .video .play{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   background: #0000007d;
+   border-radius: 8px;
+  }
+
+#about .video-right {
+   padding-left: 10%;
+
+}
+
+#about .video-right h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #989817;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+#about .video-right h1{
+    padding-bottom: 20px;
+
+}
+
+#about .video-right p span{
+    color: #000;
+    font-weight: 400;
+}
+
+
+/* CATALOG */
+
+#catalog {
+    background: url("../images/bg/menu-bg.jpg") no-repeat;
+}
+
+#catalog .catalog-item {
+    margin-bottom: 24px;
+}
+
+#catalog .catalog-item .single-menu {
+    background: #f2f3e7;
+    padding: 5%;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 1px #b6883442; 
+}
+#catalog .catalog-item .single-menu:hover {
+    box-shadow: 1px 0px 9px 3px #b68834;  
+   cursor: pointer;  
+}
+
+
+
+#catalog .catalog-item .single-menu .title-div {
+margin-bottom: 16px;
+}
+
+#catalog .catalog-item .single-menu .price {
+    color: #b68834;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* GALLERY */
+
+#gallery .gallery-img {
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+
+/* REVIEWS */
+
+
+#reviews {
+    background-color: #4d403bdb;
+    color: white;
+}
+
+.container-reviews{
+    padding-bottom: 150px;
+}
+#reviews .star {
+    margin-left: 25px;
+    color: yellow;
+    font-size: 20px;
+}
+
+#reviews .single-review  img{
+ justify-content: center;
+}
+/* Blog */
+
+#blog .blog h3 {
+    padding-top: 30px;
+}
+
+#blog .btn-blog {
+    padding-top: 9px;
+}
+
+#blog .btn-blog .btn {
+    color: black;
+    border-radius: 30px;
+    font-size: 7px;
+    border-color: rgb(203, 198, 198);
+}
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background: url(../images/bg/footer-bg.jpg)  no-repeat center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 220px !important;
+}
+
+
+.footer-icons h4 {
+    font-weight: 600p x;
+    line-height: 130%;
+}
+
+.footer-icons-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons-row > * + * {
+margin-left: 30px;
+}
+
+.footer-icons-row > * {
+    color: white;
+    font-size: 40px;
+    }
+.footer-newslatter {
+    width: 33%;
+}
+
+.footer-newslatter .form-group {
+padding-top: 15px;
+font-size: 20px;
+}
+.footer-newslatter .form-group input {
+    width: 80%;
+    color: black;
+}
+
+.footer-newslatter input {
+    border-radius: 25px;
+}
+
+.footer-newslatter button {
+    border-radius: 30px;
+}
+
+/*form*/
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
